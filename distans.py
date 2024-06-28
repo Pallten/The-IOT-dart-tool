@@ -4,7 +4,7 @@ import time
 # LED setup
 green_led = Pin(16, Pin.OUT)  # Green LED connected to GPIO 15
 yellow_led = Pin(17, Pin.OUT)  # Yellow LED connected to GPIO 14
-red_led = Pin(15, Pin.OUT)  # Red LED connected to GPIO 13
+red_led = Pin(14, Pin.OUT)  # Red LED connected to GPIO 13
 
 # Constants for distance measurement
 SOUND_SPEED = 340  # Speed of sound in m/s
